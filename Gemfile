@@ -39,10 +39,3 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
-
-# A fix to coffee script
-gem 'coffee-script-source', '1.8.0'
-#pgsql
-group :production do
-	gem 'pg', '0.12.2'
-end
